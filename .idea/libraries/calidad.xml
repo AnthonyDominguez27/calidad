@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="calidad">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/calidad.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../javafx-sdk-21/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Documents/javafx-sdk-21" />
+      <root url="file://$USER_HOME$/Documents/javafx-sdk-21" />
+    </SOURCES>
+    <excluded>
+      <root url="jar://$PROJECT_DIR$/dist/calidad.jar!/" />
+    </excluded>
+    <jarDirectory url="file://$PROJECT_DIR$/../../javafx-sdk-21/lib" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Documents/javafx-sdk-21" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$USER_HOME$/Documents/javafx-sdk-21" recursive="false" type="SOURCES" />
+  </library>
+</component>

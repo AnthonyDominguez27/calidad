@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="capa1_Presentacion.Controllers.PacienteController">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="72.0" style="-fx-background-color: #374C70;">
+         <children>
+            <Button fx:id="btnCita" contentDisplay="TOP" layoutY="120.0" mnemonicParsing="false" onAction="#showCita" prefHeight="65.0" prefWidth="72.0" text="Cita" textAlignment="CENTER" textFill="#656161">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagenes/cita-medica.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button contentDisplay="TOP" layoutX="-2.0" layoutY="198.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="72.0" text="Paciente">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagenes/paciente.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnCita1" contentDisplay="TOP" layoutY="281.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="72.0" text="Medico" textAlignment="CENTER" textFill="#656161">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagenes/medico.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnCita2" contentDisplay="TOP" layoutY="40.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="72.0" text="Home" textAlignment="CENTER" textFill="#656161">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagenes/menu.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnCita3" contentDisplay="GRAPHIC_ONLY" layoutY="721.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="72.0" text="Cerrar Sesion" textAlignment="CENTER" textFill="#656161">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagenes/cerrarsesion.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="34.0" prefWidth="1000.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="861.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/usuario%20(2).png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lblusuario" layoutX="909.0" layoutY="12.0" text="USUARIO" textFill="#1e1d1d" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="110.0" layoutY="50.0" text="REGISTRO PACIENTE" textFill="#434178">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="137.0" layoutY="138.0" text="DNI" textFill="#1d1d1e">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="137.0" layoutY="195.0" text="NOMBRE" textFill="#1d1d1e">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="127.0" layoutY="253.0" text="DIRECCION" textFill="#1d1d1e">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="127.0" layoutY="307.0" text="CORREO" textFill="#1d1d1e">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="361.0" text="TELEFONO" textFill="#1d1d1e">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="408.0" text="EDAD" textFill="#1d1d1e">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtDni" layoutX="261.0" layoutY="141.0" prefHeight="25.0" prefWidth="343.0" />
+      <TextField fx:id="txtNombre" layoutX="261.0" layoutY="198.0" prefHeight="25.0" prefWidth="343.0" />
+      <TextField fx:id="txtDireccion" layoutX="261.0" layoutY="256.0" prefHeight="25.0" prefWidth="343.0" />
+      <TextField fx:id="txtCorreo" layoutX="261.0" layoutY="310.0" prefHeight="25.0" prefWidth="343.0" />
+      <TextField fx:id="txtTelefono" layoutX="261.0" layoutY="364.0" prefHeight="25.0" prefWidth="343.0" />
+      <TextField fx:id="txtEdad" layoutX="255.0" layoutY="411.0" prefHeight="25.0" prefWidth="343.0" />
+      <CheckBox layoutX="118.0" layoutY="479.0" mnemonicParsing="false" text="Menor de Edad" />
+      <Label layoutX="112.0" layoutY="515.0" text="APODERADO" textFill="#1d1d1e">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField layoutX="255.0" layoutY="517.0" prefHeight="25.0" prefWidth="343.0" />
+      <Button fx:id="btnregistrarpaciente" layoutX="821.0" layoutY="725.0" mnemonicParsing="false" onAction="#registrarCita" prefHeight="34.0" prefWidth="117.0" text="REGISTRAR" />
+   </children>
+</Pane>
